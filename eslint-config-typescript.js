@@ -8,7 +8,9 @@ module.exports = [
   ...eslintBase,
   {
     files: ['**/*.ts', '**/*.tsx'],
-    parser: typescriptEslintParser,
+    languageOptions: {
+      parser: typescriptEslintParser,
+    },
     plugins: {
       '@typescript-eslint': typescriptEslintPlugin,
     },

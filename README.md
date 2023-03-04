@@ -6,11 +6,17 @@ Shareable configurations for JavaScript and TypeScript projects based on Google 
 
 ```js
 // eslint.config.js
+const eslintBase = require('@justoss/code-style');
+const eslintTypescript = require('@justoss/code-style/eslint-config-typescript');
+const eslintReact = require('@justoss/code-style/eslint-config-react');
 
 module.exports = [
-    '@justoss/code-style', // for JS projects
-    // '@justoss/code-style/eslint-config-typescript' // for TS projects
-    '@justoss/code-style/eslint-config-react'
+  eslintBase, // for JS projects
+  // eslintTypescript, // for TS projects
+  eslintReact,
+  {
+    // overrides
+  },
 ];
 ```
 
