@@ -25,7 +25,7 @@ module.exports = {
           { checksVoidReturn: false },
         ],
         '@typescript-eslint/no-use-before-define': 'error',
-        '@typescript-eslint/quotes': 'error',
+        '@typescript-eslint/quotes': ['error', 'single'],
         'no-underscore-dangle': 'error',
         'quotes': 'off',
         'react/prop-types': 'off',
