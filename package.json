@@ -1,6 +1,6 @@
 {
   "name": "@justoss/code-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Shareable configurations for JavaScript and TypeScript projects based on Google style guides.",
   "keywords": [
     "eslint",
