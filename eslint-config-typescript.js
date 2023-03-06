@@ -32,14 +32,6 @@ module.exports = {
         'react/require-default-props': 'off',
         'require-jsdoc': 'off',
       },
-      settings: {
-        'import/extensions': ['.ts', '.tsx', '.js', '.jsx', '.mdx'],
-        'import/resolver': {
-          node: {
-            extensions: ['.ts', '.tsx', '.js', '.jsx', '.mdx'],
-          },
-        },
-      },
     },
     {
       files: ['**/*.d.ts', '**/*.tsx'],
