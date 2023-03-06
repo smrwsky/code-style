@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.0.5
+
+### Patch Changes
+
+- a8df9ea: Fixed config files.
+
 ## 0.0.4
 
 ### Patch Changes
