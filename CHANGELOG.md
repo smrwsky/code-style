@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.0.7
+
+### Patch Changes
+
+- 3d42240: Removed no-namespace rule as it's already included in recommended config.
+
 ## 0.0.6
 
 ### Patch Changes
