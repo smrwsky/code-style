@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.0.8
+
+### Patch Changes
+
+- 7ebd1c8: Fixed typos in rules names.
+
 ## 0.0.7
 
 ### Patch Changes
