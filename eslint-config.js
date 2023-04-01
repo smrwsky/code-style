@@ -15,14 +15,24 @@ module.exports = {
     'guard-for-in': 'error',
     'new-cap': 'error',
     'no-array-constructor': 'error',
+    'no-bitwise': 'error',
     'no-caller': 'error',
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
     'no-invalid-this': 'error',
     'no-multi-str': 'error',
+    'no-new-func': 'error',
     'no-new-object': 'error',
     'no-new-wrappers': 'error',
     'no-throw-literal': 'error',
+    'no-unused-expressions': [
+      'error',
+      {
+        allowShortCircuit: true,
+        allowTernary: true,
+        allowTaggedTemplates: true,
+      },
+    ],
     'no-var': 'error',
     'no-with': 'error',
     'one-var': [
@@ -33,6 +43,7 @@ module.exports = {
         const: 'never',
       },
     ],
+    'object-shorthand': 'error',
     'prefer-arrow-callback': 'error',
     'prefer-const': ['error', { destructuring: 'all' }],
     'prefer-promise-reject-errors': 'error',
@@ -40,6 +51,7 @@ module.exports = {
     'prefer-spread': 'error',
     'prettier/prettier': 'error',
     'quotes': ['error', 'single'],
+    'radix': 'error',
     'require-jsdoc': [
       'error',
       {

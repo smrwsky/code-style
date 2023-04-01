@@ -2,47 +2,20 @@
 
 Shareable configurations for JavaScript and TypeScript projects based on Google style guides.
 
-## Getting Started
-
-### ESLint configuration
-
-For JS projects
+## Usage
 
 ```js
-// .eslintrc.js
+// eslint.config.js
 
 module.exports = {
   extends: [
-    './node_modules/@justoss/code-style',
-    './node_modules/@justoss/code-style/eslint-config-react',
+    './node_modules/@justoss/code-style/eslint-config',
+    './node_modules/@justoss/code-style/eslint-config-typescript',
+    './node_modules/@justoss/code-style/eslint-config-react'
   ],
-};
+  // Your options...
+}
 ```
-
-For TS projects
-
-```js
-// .eslintrc.js
-
-module.exports = {
-  extends: [
-    './node_modules/@justoss/code-style/eslint-config-typescript', // for TS projects
-    './node_modules/@justoss/code-style/eslint-config-react',
-  ],
-  overrides: [
-    {
-      files: ['**/*.ts', '**/*.tsx'],
-      parser: '@typescript-eslint/parser',
-      parserOptions: {
-        tsconfigRootDir: '.',
-        project: ['./tsconfig.json'],
-      },
-    },
-  ],
-};
-```
-
-### Prettier configuration
 
 ```js
 // .prettier-config.js

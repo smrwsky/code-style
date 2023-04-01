@@ -8,12 +8,20 @@ module.exports = {
     'plugin:react-perf/all',
   ],
   rules: {
-    'import/no-default-export': 'off',
     'react/destructuring-assignment': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
-    'react/jsx-sort-props': ['error', { callbacksLast: true }],
+    'react/jsx-sort-props': [
+      'error',
+      { callbacksLast: true, reservedFirst: true },
+    ],
     'react/no-array-index-key': 'off',
+    'react-perf/jsx-no-new-function-as-prop': [
+      'error',
+      {
+        nativeAllowList: ['all'],
+      },
+    ],
     'react-perf/jsx-no-new-object-as-prop': [
       'error',
       {
