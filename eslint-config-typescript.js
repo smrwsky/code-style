@@ -30,10 +30,6 @@ module.exports = {
           'error',
           { assertionStyle: 'as' },
         ],
-        '@typescript-eslint/no-namespace': [
-          'error',
-          { allowDeclaration: true },
-        ],
         '@typescript-eslint/consistent-type-definition': ['error', 'interface'],
         '@typescript-eslint/no-redeclare': 'error',
         '@typescript-eslint/no-require-imports': 'error',
