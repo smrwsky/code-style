@@ -26,11 +26,14 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'error',
         '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/restrict-template-expressions': 'error',
-        '@typescript-eslint/consistent-type-assertion': [
+        '@typescript-eslint/consistent-type-assertions': [
           'error',
           { assertionStyle: 'as' },
         ],
-        '@typescript-eslint/consistent-type-definition': ['error', 'interface'],
+        '@typescript-eslint/consistent-type-definitions': [
+          'error',
+          'interface',
+        ],
         '@typescript-eslint/no-redeclare': 'error',
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
