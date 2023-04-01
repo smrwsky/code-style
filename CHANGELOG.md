@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.0.6
+
+### Patch Changes
+
+- 68a9abd: Added new eslint rules.
+
 ## 0.0.5
 
 ### Patch Changes
