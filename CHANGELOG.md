@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.1.0
+
+### Minor Changes
+
+- 252f541: Created base configs.
+
 ## 0.0.8
 
 ### Patch Changes
