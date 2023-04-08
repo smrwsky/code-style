@@ -5,7 +5,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:react-perf/all',
+    'plugin:react-perf/recommended',
   ],
   rules: {
     'react/destructuring-assignment': 'off',

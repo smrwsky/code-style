@@ -24,7 +24,6 @@ module.exports = {
           { checksVoidReturn: false },
         ],
         '@typescript-eslint/no-use-before-define': 'error',
-        '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/restrict-template-expressions': 'error',
         '@typescript-eslint/consistent-type-assertions': [
           'error',
@@ -40,7 +39,6 @@ module.exports = {
         '@typescript-eslint/triple-slash-reference': 'error',
         '@typescript-eslint/unified-signatures': 'error',
         'no-underscore-dangle': 'error',
-        'quotes': 'off',
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         'require-jsdoc': 'off',
