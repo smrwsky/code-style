@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.1.2
+
+### Patch Changes
+
+- 22137d7: Removed 'valid-jsdoc' rule from typescript config.
+
 ## 0.1.1
 
 ### Patch Changes
