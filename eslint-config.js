@@ -50,7 +50,6 @@ module.exports = {
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prettier/prettier': 'error',
-    'quotes': ['error', 'single'],
     'radix': 'error',
     'require-jsdoc': [
       'error',
