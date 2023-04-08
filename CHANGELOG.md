@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.1.1
+
+### Patch Changes
+
+- 1c70f88: Removed 'quotes' rule.
+
 ## 0.1.0
 
 ### Minor Changes
