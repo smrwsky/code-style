@@ -1,5 +1,11 @@
 # @justoss/code-style
 
+## 0.2.0
+
+### Minor Changes
+
+- f2c6098: Move ESLint related dependencies to peerDependencies section
+
 ## 0.1.2
 
 ### Patch Changes
